@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+<!-- <img src="./img.jpg" style="border-radius: 50%;"> -->
+    <!-- Header Section -->
+    <nav class="navbar">
+        <div class="max-width">
+          <!-- <div class="logo"><a href="#"><span>AISTECHX</span><span>.com</span></a></div> -->
+          <ul class="menu">
+            <a href="#home" class="menu-btn"><strong >Home</strong></a></li>||
+            <a href="#about" class="menu-btn"><strong>About</strong></a></li>||
+            <a href="#services" class="menu-btn"><strong>Services</strong></a></li>||
+            <a href="#Skills" class="menu-btn"><strong>Skills</strong></a></li>||
+            <a href="#projects" class="menu-btn"><strong>Projects</strong></a></li>||
+            <a href="#contact" class="menu-btn"><strong>Contact</strong></a></li>
+          </ul>
+          <!-- <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div> -->
+        </div>
+      </nav>
+    <!-- <header>
+        <h1>HASEENA DUDEKULA</h1>
+        <h2 id="contact">Contact Me</h2>
+        <a href="mailto:dudekulahaseena4321@gmail.com">gmail</a>, -->
+        <!-- <a href="tel:8008689257">Phone Number</a>, -->
+    
+       <!-- <a href="https://www.linkedin.com/in/dudekula-haseena-3099b722b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>,
+        <a href="https://github.com/dudekula-haseena">Github</a> -->
+        <h3 id="home">Welcome to my online portfolio!</h3>
+        <section class="home" id="home">
+            <div class="max-width">
+              <div class="home-content">
+                <div class="text-1">Hello, This is DUDEKULA HASEENA</div>
+                <!-- <div class="text-2">Akash Mahapatra</div> -->
+                <div class="text-3"> I'm a Computer Science student pursuing B.TECH in MallaReddy Institute Of Technology</div><hr>
+                <!-- <a href="#">Hire me</a> -->
+              </div>
+            </div>
+          </section>
+    </header>
+
+    <!-- About Section -->
+    <!-- <div id="about">
+        <h2>About Me</h2>
+        <p>I am web developer passionate about creating beautiful and functional websites.</p><hr>
+    </div> -->
+      <!--  About  -->
+      <section class="about" id="about">
+        <div class="max-width">
+          <h2 class="title">About Me</h2>
+          <div class="about-content">
+            <div class="column left">
+                <img src="./img.jpg" style="border-radius: 50%;">
+              <!-- <img src="https://images.unsplash.com/photo-1503235930437-8c6293ba41f5" alt="Profile Image 626x626"> -->
+
+            </div>
+            <div class="column right">
+              <div class="text">I'm Haseena and I'm a B.tech Undergraduate pursing Computer Science And Engineering
+              <p>Seeking an entry-level opportunity with an esteemed organization where I can utilize my skills & enhance learning in the field of work. Capable of exploring with new technologies.</p>
+              
+              <strong class="text">Why Work With Me</strong><br>
+              <a href="./DUDEKULA HASEENA RESUME.pdf">RESUME</a>
+              <p>I am web developer passionate about creating beautiful and functional websites.I'm a great communicator & love to invest the necessary time to understand the customer's problem very well.</p>
+
+              <!-- <a href="file:///C:/Users/dudek/Downloads/DUDEKULA%20HASEENA%20RESUME.pdf" target="blank">Download CV</a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- Services -->
+       <section class="services" id="services">
+        <div class="max-width">
+          <h2 class="title">My services</h2>
+          <div class="serv-content">
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-laptop-code"></i>
+                <li>Web Design</li>
+                <li>Responsive Design</li>
+                <!-- <p>Your Next Web Developer, who is working in Shopify Dropshipping Stores, High Converting Ecommerce stores, Product Page also having Custom code, liquid template design.</p> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-user-secret"></i>
+                <!-- <div class="text">User Secret</div>
+                <p>I ensures that, there is no sensitive data included in the source code and are stored outside of the project folder. And all the data which is stored by User Secrets is not encrypted.</p> -->
+              </div>
+            </div>
+            <!-- <div class="card">
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">Apps Design</div>
+                <p>I encompasses both the user interface(UI) & user experience(UX). The overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets which will use.</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><hr>
+
+    <!-- Education Section -->
+    <div>
+        <h2>Education</h2>
+        <p>B.Tech in Computer Science Engineering,MallaReddy Institute of Technology    &nbsp; (2021-2025) 
+         
+        
+        <p>Intermediate Education, Sri Chaitanya Jr.College   &nbsp; (2019- 2021) 
+        <p>Secondary School,St.Anthony-Fatima High School &nbsp;(2018-2019) <hr>
+         
+ 
+ </p>
+    </div>
+<!-- Skills Section -->
+    <!-- <div id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML  
+                <input type="range"><br>  </li>
+            <li>CSS        
+                <input type="range"><br>
+            </li>
+           
+            <li>JavaScript  <input type="range"><br> </li>
+            <li>Java  <input type="range"><br></li>
+           <li>SQL  <input type="range"><br></li><hr>
+        </ul>
+    </div> -->
+     <!-- Skills -->
+     <section class="skills" id="skills">
+        <div class="max-width">
+          <h2 class="title">My Skills</h2>
+          <div class="skills-content">
+            <div class="column left">
+
+              <strong class="text">INTERNSHIP</strong>
+              <p>
+                <li class="intern">JSPIDERS-JAVA FULL STACK DEVELOPER</li>
+                <li class="intern">VAULTOFCODES - WEB DEVELOPER</li>
+                <!-- <li class="intern">#Company Name "Where You work"</li> -->
+              </p>
+
+              <br>
+              <strong class="text">PROJECTS</strong>
+
+              <p>
+                <li class="project">Portfolio (HTML)</li>
+                <li class="project">FISH BOWL ( HTML, CSS,JS)</li>
+                <li class="project">AI-POWERED WEB BROWSER AUTOMATION (Like Playwright,API)</li>
+                <!-- <li class="project">Fully Responsive Design Email Subscribe form</li> -->
+                <li class="project">PLAGARISM CHECKER USING NLTK (HTML, CSS, PYTHON)</li>
+                <!-- <li class="project">Currently Working on a Messaging App (Like WhatsApp)</li> -->
+              </p>
+
+              <br>
+              <strong class="text">DEVELOPMENT SKILLS</strong>
+
+              <p>
+                I'm familiar & work on a daily basis with HTML, CSS, JavaScript, SQL,JAVA,PYTHON.
+              </p>
+              <!-- <a href="#" target="blank">Get Educate...</a> -->
+            </div>
+            <div class="column right">
+              <div class="bars">
+                <div class="info">
+                  <!-- <span>Python</span> -->
+                   <li>HTML</li>
+                  <!-- <span>90%</span> -->
+                </div>
+                <div class="line python"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                    <li>CSS</li>
+                  <!-- <span>HTML</span> -->
+                  <!-- <span>80%</span> -->
+                </div>
+                <div class="line html"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                    <li>JS</li>
+                    <LI>SQL</LI>
+                  <!-- <span>CSS</span> -->
+                  <!-- <span>60%</span> -->
+                </div>
+                <div class="line css"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                 <li>JAVA</li> 
+                  <!-- <span>40%</span> -->
+                </div>
+                <div class="line js"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                    <li>PYTHON</li>
+                  <!-- <span>Bootstraps</span> -->
+                  <!-- <span>60%</span> -->
+                </div>
+                <div class="line bootstraps"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <!-- <span>Django</span> -->
+                  <!-- <span>70%</span> -->
+                </div>
+                <div class="line django"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <div class="max-width">
+          <h2 class="title">My Projects</h2>
+          <div class="carousel owl-carousel">
+            <div class="card">
+              <div class="box">
+                <a href="http://127.0.0.1:5501/Portfolio/index.html">Portfolio</a><br>
+                <!-- <img src="./img.jpg" alt=""> -->
+                <strong class="text"> Basic Portfolio</strong>
+                <p><b>Project Details</b>:- A simple portfolio by HTML</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <img src="./fish.png" alt="" style="height: 500px;width: 850px;"><br>
+                <strong class="text">FISH BOWL</strong>
+                <p><b>Project Details</b>:- Fish Bowl Stimulation using HTML,CSS,JS</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <img src="./Screenshot 2025-05-07 112007.png" alt="" style="height: 500px;width: 850px;"><br>
+                <strong class="text">AI-POWERED WEB BROWSER AUTOMATION</strong>
+                <p><b>Project Details</b>:- With just one prompt, it can search the internet for the latest and most relevant information. It's a simple agent for now, but this is only the start—more sophisticated AI agents are on the horizon!</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <img src="./Screenshot 2025-05-07 113114.png" alt="" style="height: 500px;width: 850px;"><br>
+                <strong class="text">PLAGARISM CHECKER USING NLTK</strong>
+                <p><b>Project Details</b>:- Plagarism detection via textfiles and images by python using NLTK</p>
+              </div>
+            </div>
+            <!-- <div class="card">
+              <div class="box">
+                <img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2xvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D" alt="">
+                <div class="text">Clone</div>
+                <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <img src="https://images.unsplash.com/photo-1541877944-ac82a091518a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fERlbW8lMjBhcHB8ZW58MHx8MHx8fDA%3D" alt="">
+                <div class="text">Demo</div>
+                <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="max-width">
+          <h2 class="title">Contact Me</h2>
+          <!-- <div class="contact-content">
+            <div class="column left"> -->
+              <h3 class="text">Get in Touch</h3>
+              <p> I am always open to discussing new projects, creative ideas or opportunities to be a part of your visions. Email me with any questions or inquiries. </p>
+              <div class="icons">
+
+                <!-- <a href="#"> -->
+                  <div class="row">
+                    <i class="fa-solid fa-user-large"></i>
+                    <div class="info">
+                      <div class="head">Name:DUDEKULA HASEENA</div>
+                      <!-- <div class="sub-title"><a href="#" style="text-decoration: none; color: #333;"> Akash Mahapatra</a></div> -->
+                    </div>
+                  </div>
+                <!-- </a> -->
+
+                <div class="row">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div class="info">
+                    <div class="head"> Address:Suraram Colony,Hyderabad,India</div>
+                    <!-- <div class="sub-title"> ABC, 123 Lane, India</div> -->
+                  </div>
+                </div>
+
+                <div class="row">
+                  <i class="fa-solid fa-envelope"></i>
+                  <div class="info">
+                    <div class="head">Email:dudekulahaseena4321@gmail.com</div>
+                    <!-- <div class="sub-title"><a href="mailto:#" style="text-decoration: none; color: #333;"> example@example.com</a></div> -->
+                  </div>
+                </div>
+
+                <div class="row">
+                  <i class="bi bi-translate"></i>
+                  <div class="info">
+                    <div class="head">Language Known:English,Hindi,Telugu</div>
+                    <!-- <div class="sub-title">Hindi, English, Odia, Bengali</div> -->
+                  </div>
+                </div>
+
+                <br>
+
+                <!-- Social -->
+                <div class="social-menu">
+                  <ul>
+                    <li><a href="https://github.com/dudekula-haseena"><i class="fa-brands fa-github">Github</i></a></li>
+                    <li><a href="https://www.linkedin.com/in/dudekula-haseena-3099b722b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in">Linkedin</i></a></li>
+                    <!-- <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" title="Get Educate with Us"><i class="fa-solid fa-graduation-cap"></i></a></li>-->
+                  </ul> 
+                </div>
+              </div>
+            </div>
+
+            <!-- Reach -->
+            <div class="column right">
+              <div class="text">Message me</div>
+              <form action="#">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Your Name" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                </div>
+                <div class="button-area">
+                  <button type="submit">Send message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+
+    <!-- Portfolio Image -->
+    
+    <!-- Contact Section -->
+   
+    <footer>
+        <p>&copy; 2025 HASEENA. All rights reserved.</p>
+    </footer>
+<!-- <a href="./MY Hobbies.html">My Hobbies</a><br>
+<a href="./Languages.html">Languages</a><br>
+<a href="./Details.html">Personal Details</a> -->
+</body>
+</html>
+
