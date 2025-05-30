@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake Recipe</title>
+    <link rel="stylesheet" href="recipe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="recipe-card">
+        <h1 class="recipe-title">Chocolate Cake</h1>
+        <div class="recipe-image-container">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Chocolate Cake" class="recipe-image">
+        </div>
+        
+        <div class="recipe-meta">
+            <div class="meta-item">
+                <span class="meta-label">Prep Time:</span>
+                <span class="meta-value">30 mins</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Cook Time:</span>
+                <span class="meta-value">35 mins</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Servings:</span>
+                <span class="meta-value">8</span>
+            </div>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="progress-steps">
+                <span class="step active" data-step="1">Ingredients</span>
+                <span class="step" data-step="2">Mix</span>
+                <span class="step" data-step="3">Bake</span>
+                <span class="step" data-step="4">Frost</span>
+                <span class="step" data-step="5">Serve</span>
+            </div>
+        </div>
+        
+        <div class="section ingredients-section">
+            <div class="section-header">
+                <h2>Ingredients</h2>
+                <button class="toggle-btn" id="toggleIngredients">Show</button>
+            </div>
+            <ul class="ingredients-list collapsed" id="ingredientsList">
+                <li class="ingredient-item">2 cups all-purpose flour</li>
+                <li class="ingredient-item">2 cups sugar</li>
+                <li class="ingredient-item">3/4 cup unsweetened cocoa powder</li>
+                <li class="ingredient-item">2 teaspoons baking powder</li>
+                <li class="ingredient-item">1 1/2 teaspoons baking soda</li>
+                <li class="ingredient-item">1 teaspoon salt</li>
+                <li class="ingredient-item">1 teaspoon espresso powder</li>
+                <li class="ingredient-item">1 cup milk</li>
+                <li class="ingredient-item">1/2 cup vegetable oil</li>
+                <li class="ingredient-item">2 large eggs</li>
+                <li class="ingredient-item">2 teaspoons vanilla extract</li>
+                <li class="ingredient-item">1 cup boiling water</li>
+            </ul>
+        </div>
+        
+        <div class="section instructions-section">
+            <div class="section-header">
+                <h2>Instructions</h2>
+                <button class="toggle-btn" id="toggleInstructions">Show</button>
+            </div>
+            <ol class="instructions-list collapsed" id="instructionsList">
+                <li class="instruction-item">Preheat oven to 350°F. Grease and flour two 9-inch round baking pans.</li>
+                <li class="instruction-item">In a large bowl, combine flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder.</li>
+                <li class="instruction-item">Add milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined.</li>
+                <li class="instruction-item">Reduce speed and carefully add boiling water to the cake batter. Beat on high speed for about 1 minute to add air to the batter.</li>
+                <li class="instruction-item">Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes.</li>
+                <li class="instruction-item">Remove from the oven and allow to cool for about 10 minutes, then remove from the pan and cool completely.</li>
+                <li class="instruction-item">Frost cake with your favorite chocolate frosting once completely cooled.</li>
+            </ol>
+        </div>
+        
+        <div class="action-buttons">
+            <button class="btn start-cooking-btn" id="startCookingBtn">Start Cooking</button>
+            <button class="btn next-step-btn" id="nextStepBtn" disabled>Next Step</button>
+        </div>
+        
+        <div class="timer-container hidden" id="timerContainer">
+            <div class="timer-display" id="timerDisplay">35:00</div>
+            <button class="btn timer-control" id="timerControl">Pause</button>
+        </div>
+    </div>
+    
+    <script src="recipe.js"></script>
+</body>
+</html>
