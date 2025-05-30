@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaultofCodes Internships</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color:white;
+            color: #333;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        
+        .internships-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            
+        }
+        
+        .internship-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-left: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .internship-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            padding: 20px;
+            
+        }
+        
+        .card-header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .detail-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .detail-item i {
+            margin-right: 10px;
+            color: #3498db;
+            font-size: 1.2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(135deg, #2980b9, #34495e);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .icon {
+            font-size: 1.2rem;
+            margin-right: 8px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./download.png" alt="">
+           
+        </header>
+         <b>Task1:</b>
+            <p>Look at this internship page</p> <br>
+            <h3>Internships</h3><br>
+            <table>
+                <tr></tr>
+        <div class="internships-container">
+            
+            <div class="internship-card">
+                <div class="card-header">
+                    <h3>Web Development Internship Program</h3>
+                </div>
+                <div class="card-body">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 1 month / 2 months</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location: Virtual</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Stipend: -</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Start date: 05/11/2023</span>
+                    </div>
+                    <a href="" class="btn">View Details</a>
+                </div>
+            </div>
+            
+          
+            <div class="internship-card">
+                <div class="card-header">
+                    <h3>App Development Internship Program</h3>
+                </div>
+                <div class="card-body">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 1 month / 2 months</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location: Virtual</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Stipend: -</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Start date: 05/11/2023</span>
+                    </div>
+                    <a href="" class="btn">View Details</a>
+                </div>
+            </div>
+            
+           
+            <div class="internship-card">
+                <div class="card-header">
+                    <h3>Python Programming Internship Program</h3>
+                </div>
+                <div class="card-body">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 1 month / 2 months</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location: Virtual</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Stipend: -</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Start date: 05/11/2023</span>
+                    </div>
+                    <a href="" class="btn">View Details</a>
+                </div>
+            </div>
+            
+           
+            <div class="internship-card">
+                <div class="card-header">
+                    <h3>Java Programming Internship Program</h3>
+                </div>
+                <div class="card-body">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 1 month / 2 months</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location: Virtual</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Stipend: -</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Start date: 05/11/2023</span>
+                    </div>
+                    <a href="" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </table>
+</body>
+</html>
